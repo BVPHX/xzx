@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="92e6c2e21c82412b9eb534f577f955c7" Name="Diagram1">
+        <EntityTypeShape EntityType="PP21Model.Auth" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PP21Model.Branches" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PP21Model.Building" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PP21Model.Organizations" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PP21Model.Regions" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PP21Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="PP21Model.FK_Building_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="PP21Model.FK_Building_Organizations" ManuallyRouted="false" />
+        <AssociationConnector Association="PP21Model.FK_Building_Regions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
